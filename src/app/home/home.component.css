@@ -2,12 +2,12 @@
 
 :root{
     --blue: #5A38FD !important;
-    --pink: #FFEBE7;
+    --pink: #FFEBE7 !important;
     --white: #ffffff;
     --black: #222222;
 }
 
-html, body { 
+html, body {
     height: 100%; 
     overflow: hidden;
 }

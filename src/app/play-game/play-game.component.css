@@ -1,0 +1,22 @@
+.left-grid-game{
+    height: 100%;
+    background: var(--blue);
+    color: white;
+}
+
+.mid-grid-game{
+    height: 100%;
+    background: var(--white);
+}
+
+.right-grid-game{
+    height: 100%;
+    background: var(--pink);
+    color: var(--blue);
+}
+
+.lottie-scroll{
+    width: 103%;
+    margin-left: -1em;
+    margin-bottom: -1em;
+}

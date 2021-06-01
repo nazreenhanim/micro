@@ -8,6 +8,7 @@ import { OnScrollComponent } from './on-scroll/on-scroll.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { OnHoverComponent } from './on-hover/on-hover.component';
 import { OnClickComponent } from './on-click/on-click.component';
+import { PlayGameComponent } from './play-game/play-game.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OnClickComponent } from './on-click/on-click.component';
     OnScrollComponent,
     NavigationComponent,
     OnHoverComponent,
-    OnClickComponent
+    OnClickComponent,
+    PlayGameComponent
   ],
   imports: [
     BrowserModule,

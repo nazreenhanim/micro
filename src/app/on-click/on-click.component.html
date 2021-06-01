@@ -1,3 +1,25 @@
 <app-navigation></app-navigation>
 
-<p>on-click works!</p>
+<div class="main-wrapper">
+    <div class="h-100 d-flex">
+        <div class="left-grid-click col-8 d-flex justify-content-center align-items-end">
+            <div class="">
+                <lottie-player class="lottie-click" src="./assets/json/wobble.json" speed="0.3" loop autoplay routerLink="/home"></lottie-player>
+            </div>
+        </div>
+
+        <div class="mid-grid-click col-3 p-5 d-flex justify-content-between flex-column align-items-center">
+            <div class="p-4">
+                <span class="col-10 text-sub text-uppercase"><sup>03</sup>animate on click</span>
+                <h4 class="col-10 text-regular mt-4">Push the red button to initiate the wobble hurricane.</h4>
+            </div>
+
+            <div class="push-btn d-flex justify-content-center align-items-center mb-5">
+                <div class="">Push</div>
+            </div>
+        </div>
+
+        <div class="right-grid-click col-1">
+        </div>
+    </div>
+</div>

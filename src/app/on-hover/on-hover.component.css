@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Space+Mono&family=Work+Sans:wght@900&display=swap');
-
 .bg-grid {
     background: var(--pink);
     color: var(--blue);
 }
 
 .bg-grid h1{ 
-    font-size: 55px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 55px;
 }
 
 .bg-grid h5 { 
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
 }
 
 .bg-grid span { 
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
 }
 

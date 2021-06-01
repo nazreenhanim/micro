@@ -2,18 +2,20 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from '../app/home/home.component';
-import { LoaderComponent } from '../app/loader/loader.component';
 import { OnScrollComponent } from '../app/on-scroll/on-scroll.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { OnHoverComponent } from '../app/on-hover/on-hover.component';
+import { OnClickComponent } from '../app/on-click/on-click.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'loader', pathMatch: 'full' },
+  {path:'',redirectTo:'home', pathMatch: 'full' },
 
   //Pages
   {path:'home', component: HomeComponent},
   {path:'navigation', component: NavigationComponent},
-  {path:'loader', component: LoaderComponent},
   {path:'on-scroll', component: OnScrollComponent},
+  {path:'on-hover', component: OnHoverComponent},
+  {path:'on-click', component: OnClickComponent},
 ];
 
 @NgModule({

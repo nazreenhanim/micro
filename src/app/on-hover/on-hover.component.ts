@@ -1,12 +1,12 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'app-loader',
-  templateUrl: './loader.component.html',
-  styleUrls: ['./loader.component.css'],
+  selector: 'app-on-hover',
+  templateUrl: './on-hover.component.html',
+  styleUrls: ['./on-hover.component.css'],
   encapsulation: ViewEncapsulation.None,
 })
-export class LoaderComponent implements OnInit {
+export class OnHoverComponent implements OnInit {
 
   constructor() { }
 

@@ -4,17 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { LoaderComponent } from './loader/loader.component';
 import { OnScrollComponent } from './on-scroll/on-scroll.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { OnHoverComponent } from './on-hover/on-hover.component';
+import { OnClickComponent } from './on-click/on-click.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoaderComponent,
     OnScrollComponent,
-    NavigationComponent
+    NavigationComponent,
+    OnHoverComponent,
+    OnClickComponent
   ],
   imports: [
     BrowserModule,

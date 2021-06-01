@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500&display=swap');
 
-:root{
-    --blue: #5A38FD !important;
-    --pink: #FFEBE7 !important;
-    --white: #ffffff;
-    --black: #222222;
-}
-
 .lottie-home {
     width: 65%;
 }

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Space+Mono&family=Work+Sans:wght@900&display=swap');
+
+
+.main-wrapper {
+height: 100vh;  
+}
+
+.right {
+    background: wheat;
+}
+
+.text-bold { 
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 117px;
+}
+
+.text-regular { 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.lottie-loader {
+    width: 80%;
+    cursor: pointer;
+}

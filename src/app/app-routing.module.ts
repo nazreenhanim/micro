@@ -7,7 +7,7 @@ import { OnScrollComponent } from '../app/on-scroll/on-scroll.component';
 import { NavigationComponent } from './navigation/navigation.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'home', pathMatch: 'full' },
+  {path:'',redirectTo:'loader', pathMatch: 'full' },
 
   //Pages
   {path:'home', component: HomeComponent},

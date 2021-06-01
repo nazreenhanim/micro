@@ -7,16 +7,25 @@
     --black: #222222;
 }
 
-html, body {
-    height: 100%; 
-    overflow: hidden;
+.lottie-home {
+    width: 65%;
 }
 
-.container{
-    min-height: 100%;
+.left-grid{
+    z-index: 2;
+    height: 100%;
+    background: var(--blue);
+    animation: leftAnim 1s ease;
 }
 
-@keyframes navBtnAnim {
+.right-grid{
+    z-index: 1;
+    background: var(--pink);
+    height: 100%;
+    animation: rightAnim 1s ease;
+}
+
+/* @keyframes navBtnAnim {
     0% {
       opacity: 0;
       top: -100%;
@@ -330,4 +339,4 @@ h6{
         bottom: 0px;
         width: 100%;
     }
-}
+} */

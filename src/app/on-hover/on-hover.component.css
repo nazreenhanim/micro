@@ -1,24 +1,21 @@
-.bg-grid {
-    background: var(--pink);
+.left-grid-hover{
+    height: 100%;
+    background: var(--blue);
+}
+
+.mid-grid-hover{
+    height: 100%;
+    background: var(--white);
     color: var(--blue);
 }
 
-.bg-grid h1{ 
-    font-size: 50px;
-    line-height: 55px;
+.right-grid-hover{
+    height: 100%;
+    background: var(--pink);
 }
 
-.bg-grid h5 { 
-    font-size: 22px;
-    line-height: 36px;
-}
-
-.bg-grid span { 
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.lottie-loader {
-    width: 80%;
-    cursor: pointer;
+.lottie-scroll{
+    width: 103%;
+    margin-left: -1em;
+    margin-bottom: -1em;
 }

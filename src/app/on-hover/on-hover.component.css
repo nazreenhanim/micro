@@ -14,8 +14,8 @@
     background: var(--pink);
 }
 
-.lottie-scroll{
-    width: 103%;
+.lottie-hover{
+    width: 95%;
     margin-left: -1em;
     margin-bottom: -1em;
 }

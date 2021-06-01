@@ -21,11 +21,11 @@
 
 #click .push-btn{
     background: tomato;
+    color: white;
     display: inline-block;
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    border: 50px solid tomato;
     transition: 0.25s;
     font-family: Space Mono;
     text-transform: uppercase;
@@ -35,7 +35,9 @@
 #click .push-btn:hover{
     transition: 0.25s;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    background: white;
+    color: tomato;
   }
 
   @keyframes blink {

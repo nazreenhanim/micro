@@ -1,8 +1,14 @@
-<div class="main-wrapper">
-    <div class="h-100 d-flex flex-column justify-content-center align-items-center right">
-        <h1 class="text-bold">hello stranger</h1>
-        <h5 class="text-regular">Tap on the grumpy cat to enter!</h5>
+<app-navigation></app-navigation>
 
+<div class="main-wrapper">
+    <div class="bg-grid h-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex">
+            <h1 class="text-bold">hello stranger</h1>
+
+            <span class="text-sub text-uppercase">Page transition</span>
+            <h5 class="text-regular">Tap on the grumpy cat to see some wobbly transition.</h5>
+        </div>  
+            
         <div class="d-flex justify-content-center">
             <lottie-player class="lottie-loader" src="./assets/json/grumpy-cat.json" speed="1" loop autoplay routerLink="/home"></lottie-player>
         </div> 

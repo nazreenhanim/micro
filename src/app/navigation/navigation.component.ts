@@ -16,7 +16,5 @@ export class NavigationComponent implements OnInit {
 
   navbarFn(){
     this.navbar = ! this.navbar;
-}
-
-
+  }
 }

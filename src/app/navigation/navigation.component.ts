@@ -7,7 +7,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class NavigationComponent implements OnInit {
-  public navbar = false;
+  // public navbar = false;
   //public isCollapsed = false;
  
   constructor() { }
@@ -15,7 +15,7 @@ export class NavigationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navbarFn(){
-    this.navbar = ! this.navbar;
-  }
+  // navbarFn(){
+  //   this.navbar = ! this.navbar;
+  // }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-
+import { AnimationOptions } from 'ngx-lottie';
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -7,15 +7,13 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class NavigationComponent implements OnInit {
-  // public navbar = false;
-  //public isCollapsed = false;
  
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  // navbarFn(){
-  //   this.navbar = ! this.navbar;
-  // }
+  options: AnimationOptions = {
+    path: './assets/json/floral.json', 
+  };
 }

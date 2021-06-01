@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { AnimationOptions } from 'ngx-lottie';
 @Component({
   selector: 'app-on-hover',
   templateUrl: './on-hover.component.html',
@@ -12,4 +13,7 @@ export class OnHoverComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  options: AnimationOptions = {
+    path: './assets/json/grumpy-cat.json', 
+  };
 }

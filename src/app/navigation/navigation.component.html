@@ -1,1 +1,27 @@
-<p>navigation works!</p>
+<div class="nav-click">
+    <button (click)="navbarFn()">Click</button>
+</div>
+
+<div class="navbar-wrapper">
+    <div class="h-100 d-flex" *ngIf="navbar">
+        <div class="left-grid col-5 d-flex justify-content-end align-items-end">
+            <div class="mr-5">
+                <lottie-player class="lottie-home" src="./assets/json/floral.json" speed="1" loop autoplay routerLink="/home"></lottie-player>
+            </div>
+        </div>
+
+        <div class="right-grid col-7 d-flex flex-column justify-content-center align-items-center py-5">
+            <div class="pb-5">
+                <span class="text-sub text-uppercase">
+                    Choose an activity
+                </span>
+                <h1 class="text-regular mt-4">
+                    <sup>01</sup><a href="">Pet a Cat</a><br>
+                    <sup>02</sup><a href="">Launch a Rocket</a><br>
+                    <sup>03</sup><a href="">Change a Season</a><br>
+                    <sup>04</sup><a href="">Play a Game</a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>

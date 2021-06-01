@@ -7,10 +7,16 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class NavigationComponent implements OnInit {
-
+  public navbar = false;
+ 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  navbarFn(){
+    this.navbar = ! this.navbar;
+}
+
 
 }

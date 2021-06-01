@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-
 @Component({
   selector: 'app-on-hover',
   templateUrl: './on-hover.component.html',

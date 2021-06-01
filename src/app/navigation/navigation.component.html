@@ -1,12 +1,15 @@
 <div class="nav-click">
-    <button (click)="navbarFn()">Click</button>
+    <button (click)="navbarFn()">
+     <lottie-player src="./assets/json/menu.json" width="50" speed="1" loop autoplay></lottie-player>
+            
+    </button>
 </div>
 
 <div class="navbar-wrapper">
     <div class="h-100 d-flex" *ngIf="navbar">
         <div class="left-grid col-5 d-flex justify-content-end align-items-end">
             <div class="mr-5">
-                <lottie-player class="lottie-home" src="./assets/json/floral.json" speed="1" loop autoplay routerLink="/home"></lottie-player>
+                <lottie-player class="lottie-home" src="./assets/json/floral.json" speed="1" loop autoplay></lottie-player>
             </div>
         </div>
 

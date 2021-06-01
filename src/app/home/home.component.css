@@ -1,20 +1,25 @@
 .lottie-home {
     width: 110%;
-    margin-bottom: -0.6em;
+    margin-bottom: -2em;
 }
 
 .left-grid{
     height: 100%;
-    background: var(--blue);
-    color: white;
+    background: var(--pink);
 }
 
-.left-grid h1{
-    font-size: 80px;
-    line-height: 80px;
+.mid-grid{
+    height: 100%;
+    background: var(--blue);
+    color: var(--white);
+}
+
+.mid-grid h1{
+    font-size: 65px;
+    line-height: 65px;
 }
 
 .right-grid{
-    background: var(--pink);
+    background: var(--white);
     height: 100%;
 }

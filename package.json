@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~11.0.6",
     "@angular/router": "~11.0.6",
     "@ng-bootstrap/ng-bootstrap": "^9.1.1",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.0.1",
     "jquery": "^3.6.0",
     "lottie-web": "^5.7.9",

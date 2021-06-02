@@ -28,8 +28,9 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/on-hover.js",
-              "src/assets/js/lottie-player.js"
+              "src/assets/js/lottie-player.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/on-hover.js"
             ]
           },
           "configurations": {
@@ -94,7 +95,9 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/lottie-player.js"
+              "src/assets/js/lottie-player.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/on-hover.js"
             ]
           }
         },

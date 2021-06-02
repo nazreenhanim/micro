@@ -13,7 +13,7 @@ export class OnClickComponent implements OnInit {
   }
 
   options: AnimationOptions = {
-    path: './assets/json/wobble.json', 
+    path: './assets/json/jump.json', 
   };
 
   private animationItem: AnimationItem;

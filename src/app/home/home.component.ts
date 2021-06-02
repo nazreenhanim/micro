@@ -1,6 +1,4 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-// import { AnimationOptions } from 'ngx-lottie';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

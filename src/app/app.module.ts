@@ -11,8 +11,6 @@ import { OnHoverComponent } from './on-hover/on-hover.component';
 import { OnClickComponent } from './on-click/on-click.component';
 import { PlayGameComponent } from './play-game/play-game.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { LottiePlayer } from '@lottiefiles/lottie-player';
-
 @NgModule({
   declarations: [
     AppComponent,

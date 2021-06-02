@@ -7,6 +7,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { OnHoverComponent } from '../app/on-hover/on-hover.component';
 import { OnClickComponent } from '../app/on-click/on-click.component';
 import { PlayGameComponent } from '../app/play-game/play-game.component';
+import { TicTacToeComponent } from '../app/tic-tac-toe/tic-tac-toe.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'on-hover', component: OnHoverComponent},
   {path:'on-click', component: OnClickComponent},
   {path:'play-game', component: PlayGameComponent},
+  {path:'test', component: TicTacToeComponent},
 ];
 
 @NgModule({

@@ -11,6 +11,7 @@ import { OnHoverComponent } from './on-hover/on-hover.component';
 import { OnClickComponent } from './on-click/on-click.component';
 import { PlayGameComponent } from './play-game/play-game.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavigationComponent,
     OnHoverComponent,
     OnClickComponent,
-    PlayGameComponent
+    PlayGameComponent,
+    TicTacToeComponent
   ],
   imports: [
     BrowserModule,

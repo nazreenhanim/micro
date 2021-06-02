@@ -19,3 +19,13 @@
     width: 100%;
     margin-bottom: -1em;
 }
+
+#scroll .animate__animated.animate__animate__slideInUp,
+#scroll .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#scroll .animate__animated.animate__lightSpeedInLeft {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}

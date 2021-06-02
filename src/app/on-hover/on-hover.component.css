@@ -1,4 +1,5 @@
 .left-grid-hover{
+    z-index: 3;
     height: 100%;
     background: var(--blue);
 }
@@ -18,4 +19,14 @@
     width: 95%;
     margin-left: -1em;
     margin-bottom: -1em;
+}
+
+#hover .animate__animated.animate__animate__slideInUp,
+#hover .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#hover .animate__animated.animate__lightSpeedInLeft {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
 }

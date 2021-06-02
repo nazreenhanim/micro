@@ -1,4 +1,5 @@
 .left-grid-click{
+    z-index: 3;
     height: 100%;
     background: var(--white);
 }
@@ -50,4 +51,19 @@
     100% {
         box-shadow: 0px 0px 0px white;
    }
+}
+
+#onclick .animate__animated.animate__animate__slideInUp,
+#onclick .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#onclick .animate__animated.animate__lightSpeedInLeft {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}
+
+#onclick .animate__animated.animate__bounceIn {
+    animation-delay: 1.4s;
+    animation-duration: 0.7s;
 }

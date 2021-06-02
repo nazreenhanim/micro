@@ -16,9 +16,9 @@
 }
 
 .lottie-scroll{
-    width: 103%;
-    margin-left: -1em;
-    margin-bottom: -1em;
+    width: 100%;
+    margin-right: 5em;
+    margin-bottom: -5em;
 }
 
 #game .animate__animated.animate__animate__slideInUp,

@@ -2,17 +2,55 @@
     z-index: 5;
     position: absolute;
     height: 100vh;
-    margin-left: 20em;
+    margin-left: 25em;
+    margin-top: 2.5em;
+}
+
+.board-wrapper b{
+    font-weight: 900;
+    color: var(--blue);
+    margin-left: 7px;
+}
+
+.board-wrapper button{
+    background: tomato;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 27px;
+    box-shadow: 2px 2px 8px #FFB9A9;
+    font-size: 20px;
+}
+
+.board-wrapper button:active{
+    box-shadow: none;
+    margin-left: 3px;
+}
+
+.restart .fa{
+    color: white;
+    margin-left: 7px;
+}
+
+.player .fa{
+    color: green;
+    margin-right: 10px;
+    transform: scale(1.4);
 }
 
 main {
     display: grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 130px 130px 130px;
     grid-gap: 0px;
+    border-radius: 10px;
 }
   
 app-square {
-    border: none;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+}
+
+#board .animate__animated.animate__bounceIn {
+    animation-delay: 1.2s;
+    animation-duration: 0.7s;
 }

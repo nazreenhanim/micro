@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { AnimationOptions } from 'ngx-lottie';
+// import { AnimationOptions } from 'ngx-lottie';
 
 @Component({
   selector: 'app-home',
@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  options: AnimationOptions = {
-    path: './assets/json/girl.json', 
-  };
+  // options: AnimationOptions = {
+  //   path: './assets/json/girl.json', 
+  // };
 }

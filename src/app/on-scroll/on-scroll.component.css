@@ -1,3 +1,7 @@
+.scroll-wrapper{
+    height: 100vh; 
+}
+
 .left-grid-scroll{
     height: 100%;
     background: var(--blue);
@@ -7,6 +11,12 @@
 .mid-grid-scroll{
     height: 100%;
     background: var(--white);
+    overflow: auto;
+}
+
+.mid-content{
+    background: white;
+    height: 6000px;
 }
 
 .right-grid-scroll{
@@ -29,3 +39,25 @@
     animation-delay: 0.7s;
     animation-duration: 0.7s;
 }
+
+#robotBG path{
+    fill: none;
+  }
+
+.animation {
+    position: fixed;
+    width: 620px;
+    top: 50%;
+    left: 60%;
+    margin: auto 0;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .scene {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }

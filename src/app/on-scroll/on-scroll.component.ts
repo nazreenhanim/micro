@@ -1,5 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { AnimationOptions } from 'ngx-lottie';
+import { Component, OnInit, ViewEncapsulation, ElementRef } from '@angular/core';
 @Component({
   selector: 'app-on-scroll',
   templateUrl: './on-scroll.component.html',
@@ -8,12 +7,15 @@ import { AnimationOptions } from 'ngx-lottie';
 })
 export class OnScrollComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementRef:ElementRef) {};
+
+  ngAfterViewInit() {
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.src = "../assets/js/on-scroll.js";
+    this.elementRef.nativeElement.appendChild(s);
+  }
 
   ngOnInit(): void {
   }
-
-  options: AnimationOptions = {
-    path: './assets/json/rocket.json', 
-  };
 }

@@ -1,17 +1,29 @@
 <app-navigation></app-navigation>
 
-<div class="main-wrapper" id="scroll">
+<div class="scroll-wrapper" id="scroll">
     <div class="h-100 d-flex">
         <div class="left-grid-scroll col-4 p-5 animate__animated animate__slideInDown">
             <div class="p-4 animate__animated animate__lightSpeedInLeft">
                 <span class="col-10 text-sub text-uppercase"><sup>04</sup>animate on scroll</span>
-                <h4 class="col-10 text-regular mt-4">Scroll your mouse up and down to launch and land the rocket.</h4>
+                <h4 class="col-10 text-regular mt-4">Scroll your mouse up and down to assemble a humanoid.</h4>
             </div>
         </div>
 
-        <div class="mid-grid-scroll col-6 d-flex justify-content-center align-items-end">
-            <div class="">
-                <ng-lottie height="auto" [options]="options"></ng-lottie>
+        <div class="mid-grid-scroll col-6">
+            <div class="mid-content">
+                <!-- <lottie-player 
+                id="rocket" 
+                src="src/assets/json/rocket.json" 
+                style="width:450px; height: 450px;">
+                </lottie-player> -->
+
+                <!-- animation div -->
+                <div id="robotLottie" class="animation"></div>
+
+                <!-- robot animation trigger -->
+                <div id="trigger" class="scene"></div>
+
+
             </div>
         </div>
 

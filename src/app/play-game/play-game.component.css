@@ -1,0 +1,32 @@
+.left-grid-game{
+    height: 100%;
+    background: var(--blue);
+}
+
+.mid-grid-game{
+    z-index: 3;
+    height: 100%;
+    background: var(--white);
+}
+
+.right-grid-game{
+    height: 100%;
+    background: var(--pink);
+    color: var(--blue);
+}
+
+.lottie-scroll{
+    width: 100%;
+    margin-right: 5em;
+    margin-bottom: -5em;
+}
+
+#game .animate__animated.animate__animate__slideInUp,
+#game .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#game .animate__animated.animate__lightSpeedInLeft {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}

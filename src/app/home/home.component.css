@@ -1,0 +1,71 @@
+.lottie-home {
+    width: 115%;
+    margin-bottom: -0.7em;
+}
+
+.left-grid{
+    z-index: 3;
+    height: 100%;
+    background: var(--pink);
+}
+
+.mid-grid{
+    height: 100%;
+    background: var(--white);
+    color: var(--blue);
+}
+
+.text-main{
+    color: var(--blue) !important;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.text-main i{
+    color: tomato;
+}
+.text-main u:before{
+content: "~~~~~~~~~~~~";
+  font-size: 0.6em;
+  font-weight: 700;
+  font-family: Times New Roman, Serif;
+  color: tomato;
+  width: 100%;
+  position: absolute;
+  top: 160px;
+  left: 210px;
+  overflow: hidden;
+  letter-spacing: -0.1em;
+}
+
+.text-main u{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+.mid-grid h1{
+    font-size: 65px;
+    line-height: 65px;
+}
+
+.right-grid{
+    background: var(--blue);
+    height: 100%;
+}
+
+#home .animate__animated.animate__animate__slideInUp,
+#home .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#home .animate__animated.animate__lightSpeedInLeft:nth-child(1) {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}
+
+#home .animate__animated.animate__lightSpeedInLeft:nth-child(2) {
+    animation-delay: 1.2s;
+    animation-duration: 0.7s;
+}

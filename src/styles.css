@@ -1,333 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Space+Mono&family=Work+Sans:wght@900&display=swap');
 
 :root{
-    --blue: #5A38FD;
-    --pink: #FFEBE7;
-    --white: #ffffff;
+    --blue: #2334C5;
+    --pink: #F7CEF1;
+    --white: #fefefe;
     --black: #222222;
 }
 
-html, body { 
-    height: 100%; 
+html {
     overflow: hidden;
 }
 
-.container{
-    min-height: 100%;
+.main-wrapper {
+    height: 100vh;  
+    overflow: hidden;
+}   
+
+.text-bold { 
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 900;
 }
 
-@keyframes navBtnAnim {
-    0% {
-      opacity: 0;
-      top: -100%;
-    }
-    100% {
-      opacity: 1;
-      top: 0;
-    }
+.text-regular { 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
 }
 
-.nav-btn{
-    z-index: 5;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    background: var(--white);
-    padding: 20px;
-    cursor: pointer;
-    animation: navBtnAnim 1.5s ease;
+.text-sub { 
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 400;
 }
 
-.nav-btn button{
-    outline: none;
-    border: none;
-    background: none;
-    color: var(--blue);
-    cursor: pointer;
-    font-size: 22px;
-    transition: 0.2s;
-}
-.nav-btn button:hover{
-    transform: scale(1.2);
-    transition: 0.2s;
+sup {
+    margin-right: 0.5em;
 }
 
-@keyframes navAnim {
-    0% {
-      height: 0;
-    }
-    100% {
-      height: 100%;
-    }
-}
-
-#nav-grid {
-    display: none;
-}
-
-#nav-grid {
-    z-index: 4;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background: var(--pink);
-    animation: navAnim 1s ease;
-}
-
-@keyframes navLinksAnim {
-    0% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 0;
-      left: -5%;
-      }
-    100% {
-      opacity: 1;
-      left: 0;
-    }
-}
-
-.nav-links {
-    width: 58.5%;
-    height: 100%;
-    position: absolute;
-    top: 30%;
-    left: 0px;
-    color: var(--blue);
-    text-align: center;
-    animation: navLinksAnim 1.8s ease;
-}
-
-.nav-svg::before{
-    content:"";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 41.5%;
-    height: 100%;
-    background: var(--blue);
-}
-
-.nav-svg img{
-    z-index: 5;
-    position: absolute;
-    bottom: 0px;
-    right: 250px;
-    width: 33%;
-}
-
-@keyframes leftAnim {
-    0% {
-      left: -100%;
-    }
-    100% {
-      left: 0;
-    }
-}
-
-.left-grid{
-    z-index: 2;
-    height: 100%;
-    background: var(--blue);
-    animation: leftAnim 1s ease;
-}
-
-@keyframes mainTitleAnim {
-    0% {
-      opacity: 0;
-      left: -100%;
-    }
-    65% {
-        opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      left: 0;
-    }
-}
-
-.main-title{
-    position: relative;
-    left: 0px;
-    animation: mainTitleAnim 2s ease;
-}
-
-@keyframes pastAnim {
-    0% {
-      opacity: 0;
-    }
-    70% {
-        opacity: 0;
-        left: -5%;
-    }
-    100% {
-      opacity: 1;
-    }
-}
-
-.past{
-    position: relative;
-    left: 0px;
-    animation: pastAnim 2.5s ease;
-}
-
-@keyframes futureAnim {
-    0% {
-      opacity: 0;
-    }
-    75% {
-        opacity: 0;
-        left: -5%;
-    }
-    100% {
-      opacity: 1;
-    }
-}
-
-.future{
-    position: relative;
-    left: 0px;
-    animation: futureAnim 3s ease;
-}
-
-a{
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 70px;
-    color: var(--blue);
-    transition: 0.2s;
-}
-
-a:hover{
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    color: var(--blue);
-    transition: 0.2s;
-}
-
-h1{
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 60px;
-    color: var(--white);
-    padding-top: 38%;
+span{
+    font-size: 12px;
 }
 
 h4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: var(--blue);
+    font-size: 24px;
+    line-height: 36px;
 }
 
-h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: var(--white);
-    padding-top: 130%;
-}
-
-h6{
-    font-family: 'Playfair Display', serif;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--white);
-}
-
-@keyframes svgAnim {
-    0% {
-        opacity: 0;
-      }
-    20% {
-        right: -80%;
-        opacity: 0;
-    }
-    100% {
-        right: 0;
-        opacity: 1;
-      }
-}
-
-.main-svg img{
-    z-index: 3;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 60%;
-    animation: svgAnim 1.7s ease;
-}
-
-@keyframes rightAnim {
-    0% {
-        right: -50%;
-        opacity: 0;
-      }
-    100% {
-        right: 0;
-        opacity: 1;
-      }
-}
-
-.right-grid{
-    z-index: 1;
-    background: var(--pink);
-    height: 100%;
-    animation: rightAnim 1s ease;
-}
-
-@media only screen and (max-width: 720px) {
-    html, body { 
-        height: 100%; 
-        overflow-y: visible;
-    }
-
-    #nav-grid {
-        height: 100%;
-    }
-
-    .nav-links {
-        width: 100%;
-        height: 50%;
-    }
-
-    .nav-svg::before, .nav-svg img{
-        visibility: hidden;
-    }
-
-    .left-grid{
-        height: 120%;
-    }
-
-    h5{
-        padding-top: 10px;
-    }
-
-    .right-grid{
-        height: 0%;
-    }
-
-    .main-title h1{
-        font-size: 45px;
-        line-height: 45px;
-        padding-top: 95px;
-        padding-bottom: 60px;
-    }
-
-    .main-svg img{
-        bottom: 0px;
-        width: 100%;
-    }
+b{
+    color: tomato;
 }

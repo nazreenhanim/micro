@@ -1,0 +1,69 @@
+.left-grid-click{
+    z-index: 3;
+    height: 100%;
+    background: var(--white);
+}
+
+.mid-grid-click{
+    height: 100%;
+    background: var(--blue);
+    color: var(--white);
+}
+
+.right-grid-click{
+    height: 100%;
+    background: var(--pink);
+}
+
+.lottie-click{
+    width: 100%;
+    margin-bottom: -1em;
+}
+
+#click .push-btn{
+    background: tomato;
+    color: white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: 0.25s;
+    font-family: Space Mono;
+    text-transform: uppercase;
+    margin: 1em;
+}
+
+#click .push-btn:hover{
+    transition: 0.25s;
+    cursor: pointer;
+    background: white;
+    color: tomato;
+    animation: blink 1s ease-in-out infinite;
+  }
+
+  @keyframes blink {
+    0% {
+        box-shadow: 0px 0px 0px white;
+   }
+    50% {
+        box-shadow: 0px 0px 50px white;
+   }
+    100% {
+        box-shadow: 0px 0px 0px white;
+   }
+}
+
+#onclick .animate__animated.animate__animate__slideInUp,
+#onclick .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#onclick .animate__animated.animate__lightSpeedInLeft {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}
+
+#onclick .animate__animated.animate__bounceIn {
+    animation-delay: 1.4s;
+    animation-duration: 0.7s;
+}

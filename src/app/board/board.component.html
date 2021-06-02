@@ -1,0 +1,19 @@
+<div class="board-wrapper" id="board">
+    <div class="d-flex flex-column justify-content-center align-items-center animate__animated animate__bounceIn">
+        <h2 class="text-regular my-3 player"><i class="fa fa-android"></i> Current Player: <b>{{ player }}</b></h2>
+
+        <h5 class="mb-3 text-sub text-uppercase" *ngIf="winner">
+             Player <b>{{ winner }}</b> won the game!
+        </h5>
+
+        <main>
+            <app-square 
+                *ngFor="let val of squares; let i = index" 
+                [value]="val"
+                (click)="makeMove(i)"> 
+            </app-square>
+        </main>
+
+        <button class="mt-4 text-regular restart" nbButton outline status="danger" (click)="newGame()">Restart <i class="fa fa-undo"></i></button>
+    </div>
+</div>

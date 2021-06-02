@@ -1,0 +1,31 @@
+<app-navigation></app-navigation>
+
+<div class="main-wrapper" id="onclick">
+    <div class="h-100 d-flex" id="click">
+        <div class="left-grid-click col-8 d-flex justify-content-center align-items-end animate__animated animate__slideInUp">
+            <div>
+                <ng-lottie width="700px" height="700px" [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
+            </div> 
+        </div>
+
+        <div class="mid-grid-click col-3 p-5 d-flex justify-content-between flex-column align-items-center animate__animated animate__slideInDown">
+            <div class="p-4 animate__animated animate__lightSpeedInLeft">
+                <span class="col-10 text-sub text-uppercase"><sup>03</sup>animate on click</span>
+                <h4 class="col-10 text-regular mt-4"><b>Click</b> on the buttons to play or pause the jumping kids.</h4>
+            </div>
+
+            <div class="d-flex mb-5 animate__animated animate__bounceIn">
+                <div id="click" (click)="play()" class="push-btn d-flex justify-content-center align-items-center">
+                    <div class=""><i class="fa fa-play"></i></div>
+                </div>
+
+                <div id="click" (click)="pause()" class="push-btn d-flex justify-content-center align-items-center">
+                    <div class=""><i class="fa fa-pause"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-grid-click col-1 animate__animated animate__slideInUp">
+        </div>
+    </div>
+</div>

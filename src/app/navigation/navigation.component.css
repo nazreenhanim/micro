@@ -1,0 +1,83 @@
+/* Navbar Toggle */
+input {
+    display: none;
+  }
+  
+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: tomato;
+    z-index: 12;
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    padding: 8px;
+    transition: 0.25s;
+}
+
+label:hover {
+    background: white;
+    transition: 0.25s;
+}
+
+/* Wrapper */
+.navbar-wrapper{
+    z-index: 10;
+    height: 100vh; 
+    width: 100%;  
+    overflow: hidden;
+    position: absolute;
+    margin-top: -50em;
+    transition: 0.6s;
+    transform: skewX(30deg);
+}
+
+input:checked+label ~ .navbar-wrapper{
+    margin-top: 0em;
+    transition: 0.6s;
+    transform: skewX(0deg);
+}
+
+/* Base Grid */
+.left-grid-nav{
+    background: var(--blue);
+    height: 100%;
+}
+
+.right-grid-nav{
+    height: 100%;
+    background: var(--pink);
+    color: var(--blue);
+}
+
+.right-grid-nav sup{
+    font-family: Space Mono;
+    font-size: 13px;
+    line-height: 65px;
+}
+
+.right-grid-nav a{
+    text-decoration: none;
+    color: var(--blue);
+    margin-left: 0.3em;
+    transition: 0.2s;
+}
+.right-grid-nav a:hover{
+    color: var(--white);
+    text-shadow:
+   -1px -1px 0 var(--blue),  
+    1px -1px 0 var(--blue),
+    -1px 1px 0 var(--blue),
+     1px 1px 0 var(--blue);
+    transition: 0.2s;
+    font-style: italic;
+}
+
+/* Lottie */
+.lottie-nav {
+    width: 100%;
+    margin-bottom: -0.6em;
+}

@@ -1,0 +1,30 @@
+<app-navigation></app-navigation>
+
+<div class="main-wrapper" id="home">
+    <div class="h-100 d-flex">
+        <div class="left-grid col-1 animate__animated animate__slideInUp"></div>
+
+        <div class="mid-grid col-6 d-flex flex-column justify-content-between py-5 px-5">
+            <div class="pt-5 pl-5 animate__animated animate__lightSpeedInLeft">
+                <h1 class="col-9 offset-1 text-main"><i>Wobble</i><br> Your <u>World</u></h1>
+            </div>
+            <div class="pb-5 pl-5 animate__animated animate__lightSpeedInLeft">
+                <span class="col-9 offset-1 text-sub text-uppercase">
+                    <sup>01</sup>Animate on page load
+                </span>
+                <h4 class="col-9 offset-1 text-regular mt-4">
+                    This page is the epitome of a really basic pure CSS animation which is <b>triggered automatically</b> on page load.
+                </h4>
+            </div>
+        </div>
+
+        <div class="right-grid col-5 d-flex justify-content-end align-items-end animate__animated animate__slideInDown">
+            <div class="mr-5">
+                <!-- <ng-lottie height="auto" [options]="options"></ng-lottie> -->
+                <lottie-player class="lottie-home" src="./assets/json/wobble.json" speed="0.3" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+</div>
+
+    

@@ -1,0 +1,56 @@
+.scroll-wrapper{
+    height: 100vh; 
+}
+
+.left-grid-scroll{
+    height: 100%;
+    background: var(--blue);
+    color: white;
+}
+
+.mid-grid-scroll{
+    height: 100%;
+    background: var(--white);
+    overflow: auto;
+}
+
+.mid-content{
+    background: white;
+    height: 6000px;
+}
+
+.right-grid-scroll{
+    height: 100%;
+    background: var(--pink);
+    color: var(--blue);
+}
+
+.lottie-scroll{
+    width: 100%;
+    margin-bottom: -1em;
+}
+
+#scroll .animate__animated.animate__animate__slideInUp,
+#scroll .animate__animated.animate__slideInDown {
+    animation-duration: 0.7s;
+}
+
+#scroll .animate__animated.animate__lightSpeedInLeft {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}
+
+#robotBG path{
+    fill: none !important;
+}
+
+.animation {
+    position: fixed;
+    width: 800px;
+    top: 50%;
+    left: 51%;
+    margin: auto 0;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}

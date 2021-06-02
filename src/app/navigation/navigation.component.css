@@ -5,8 +5,6 @@ input {
   
 label {
     cursor: pointer;
-    border: none !important;
-    box-shadow: none !important;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -17,11 +15,12 @@ label {
     top: 0.8em;
     right: 0.8em;
     padding: 8px;
-    transition: 0.4s;
+    transition: 0.25s;
 }
 
-input:checked+label {
-    transition: 0.4s;
+label:hover {
+    background: white;
+    transition: 0.25s;
 }
 
 /* Wrapper */

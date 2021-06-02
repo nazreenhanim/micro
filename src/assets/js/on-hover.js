@@ -1,11 +1,11 @@
 LottieInteractivity.create({
     mode:"cursor",
-    player: "#grumpycat",
+    player: "#seventhLottie",
     actions: [
       {
         position: { x: [0, 1], y: [0, 1] },
         type: "loop",
-        frames: [45, 60]
+        frames: [1, 60]
       },
       {
         position: { x: -1, y: -1 },
@@ -13,4 +13,4 @@ LottieInteractivity.create({
         frames: [45],
       }
     ]
-  });
+});

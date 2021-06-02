@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LottieModule } from 'ngx-lottie';
-import { Lottie } from 'lottie-interactive';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

@@ -30,7 +30,7 @@ label:hover {
     width: 100%;  
     overflow: hidden;
     position: absolute;
-    margin-top: -50em;
+    margin-top: -60em;
     transition: 0.6s;
     transform: skewX(30deg);
 }

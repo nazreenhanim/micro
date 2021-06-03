@@ -1,6 +1,6 @@
 # POC 1.0 - Microanimation and Transition
 
-A compilation of web animations.
+A compilation of web animations and lottie behaviors.
 
 ## Development server
 

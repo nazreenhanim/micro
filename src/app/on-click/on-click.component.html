@@ -11,17 +11,17 @@
         <div class="mid-grid-click col-3 p-5 d-flex justify-content-between flex-column align-items-center animate__animated animate__slideInDown">
             <div class="p-4 animate__animated animate__lightSpeedInLeft">
                 <span class="col-10 text-sub text-uppercase"><sup>03</sup>animate on click</span>
-                <h4 class="col-10 text-regular mt-4"><b>Click</b> on the buttons to play or pause the jumping kids.</h4>
+                <h4 class="col-10 text-regular mt-4"><b>Click</b> on the buttons to freeze or resume the jumping kids animation.</h4>
             </div>
 
             <div class="d-flex mb-5 animate__animated animate__bounceIn">
-                <div id="click" (click)="play()" class="push-btn d-flex justify-content-center align-items-center">
+                <button id="click" (click)="play()" class="d-flex justify-content-center align-items-center">
                     <div class=""><i class="fa fa-play"></i></div>
-                </div>
+                </button>
 
-                <div id="click" (click)="pause()" class="push-btn d-flex justify-content-center align-items-center">
+                <button id="click" (click)="pause()" class="d-flex justify-content-center align-items-center">
                     <div class=""><i class="fa fa-pause"></i></div>
-                </div>
+                </button>
             </div>
         </div>
 

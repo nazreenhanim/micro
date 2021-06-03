@@ -26,15 +26,15 @@
     color: tomato;
 }
 .text-main u:before{
-content: "~~~~~~~~~~~~";
+content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
   font-size: 0.6em;
   font-weight: 700;
   font-family: Times New Roman, Serif;
   color: tomato;
   width: 100%;
   position: absolute;
-  top: 160px;
-  left: 210px;
+  top: 155px;
+  left: 50px;
   overflow: hidden;
   letter-spacing: -0.1em;
 }

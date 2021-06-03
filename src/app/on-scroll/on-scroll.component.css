@@ -4,25 +4,33 @@
 
 .left-grid-scroll{
     height: 100%;
-    background: var(--blue);
-    color: white;
+    background: var(--pink);
+    color: var(--blue);
 }
 
 .mid-grid-scroll{
     height: 100%;
-    background: var(--white);
+    background: white;
     overflow: auto;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: tomato;
+    border-radius: 50px;
+}
+
 .mid-content{
-    background: white;
     height: 6000px;
 }
 
 .right-grid-scroll{
+    z-index: 5;
     height: 100%;
-    background: var(--pink);
-    color: var(--blue);
+    background: var(--blue);
 }
 
 .lottie-scroll{
@@ -41,14 +49,14 @@
 }
 
 #robotBG path{
-    fill: none !important;
+    fill: none;
 }
 
 .animation {
     position: fixed;
     width: 800px;
     top: 50%;
-    left: 51%;
+    left: 71.5%;
     margin: auto 0;
     height: auto;
     -webkit-transform: translate(-50%, -50%);

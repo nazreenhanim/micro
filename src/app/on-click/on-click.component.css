@@ -20,9 +20,10 @@
     margin-bottom: -1em;
 }
 
-#click .push-btn{
-    background: tomato;
-    color: white;
+#click button{
+    border: none;
+    background: white;
+    color: tomato;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -31,15 +32,20 @@
     font-family: Space Mono;
     text-transform: uppercase;
     margin: 1em;
+    transform: scale(1.1);
 }
 
-#click .push-btn:hover{
+#click button:active{
+    background: tomato;
+    color: white;
+    transform: scale(1);
+}
+
+#click button:hover{
     transition: 0.25s;
     cursor: pointer;
-    background: white;
-    color: tomato;
     animation: blink 1s ease-in-out infinite;
-  }
+}
 
   @keyframes blink {
     0% {
